@@ -4,6 +4,6 @@
     <view class='title'>Fuck my code</view>
     <text class='teaser'>Fighting with bugs everyday</text>
     <view class='margin'/>
-    <button>Start now</button>
+    <button bindtap="goNext">Start now</button>
   </view>
 </view>
