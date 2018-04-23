@@ -13,7 +13,7 @@ Page({
     wx.showToast({
       title: 'Sending...',
       icon: 'loading',
-      duration: 1500
+      duration: 1000
     })
     let name = e.detail.value.name
     let content = e.detail.value.content
@@ -21,6 +21,13 @@ Page({
     console.log(e)
     app.globalData.items.unshift({name: name, content: content})
     
+
+    setTimeout(function () {
+      wx.reLaunch({
+        url: '/pages/index/index'
+      })
+    }, 1000)
+
   },
   onLoad: function (options) {
   
