@@ -9,4 +9,19 @@
     </view>
   </view>
 <!-- Banner -->
+
+
+<form bindsubmit="bindSubmit">
+    <view class="user-input">
+     <view class="text-area-wrap">
+      <textarea placeholder="Name" value="{{userInfo.nickName}}" name="name" auto-height />
+     </view>
+    </view>
+    <view class="user-input">
+     <view class="text-area-wrap">
+      <textarea style="input-size" placeholder="FMC Message" class="input-height" name="content" maxlength="-1" />
+     </view>
+    </view>
+    <button class="submit-button" form-type="submit" >Submit</button>
+</form>
   
