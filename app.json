@@ -1,7 +1,7 @@
 {
   "pages":[
-    "pages/landing/landing",
     "pages/index/index",
+    "pages/landing/landing",
     "pages/post/post"
   ],
   "window":{

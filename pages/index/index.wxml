@@ -7,16 +7,16 @@
     </view>
   </view>
 
-
-  <!-- Card component -->
-<view class="card-outer-border">
-
-  <view class="card-header-item">
-      Salmon
-  </view>
-  <view class="card-line"/>
-  <view class="card-body-item">
-    "This is body content"
-  </view>
-</view>
-  <!-- Card component -->
+  <block wx:for="{{items}}" wx:for-item="item" wx:for-index="itemsIndex" wx:key="items">
+      <!-- Card component -->
+    <view class="card-outer-border">
+      <view class="card-header-item">
+          {{item.name}}
+      </view>
+      <view class="card-line"/>
+      <view class="card-body-item">
+        "{{item.content}}"
+      </view>
+    </view>
+      <!-- Card component -->
+</block>
