@@ -1,6 +1,6 @@
-# MP-FMC-V1
+# MP-FMC-V3
 Wechat Mini-program : FuckMyCode
-Version: 1
+Version: 3
 
 - Store data in GlobalData
 - Add post
