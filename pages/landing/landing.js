@@ -9,7 +9,7 @@ Page({
   },
 
   goNext: function () {
-    wx.navigateTo({
+    wx.redirectTo({
       url: '/pages/index/index'
     })
   },

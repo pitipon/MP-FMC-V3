@@ -1,4 +1,6 @@
 /* pages/landing/landing.wxss */
+
+/* Banner Component */
 .banner {
   color: white;
   text-align: center;
@@ -24,3 +26,4 @@
 .margin {
   margin-top: 20px;
 }
+/* Banner Component */
