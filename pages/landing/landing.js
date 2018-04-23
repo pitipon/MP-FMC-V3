@@ -9,7 +9,7 @@ Page({
   },
 
   goNext: function () {
-    wx.redirectTo({
+    wx.switchTab({
       url: '/pages/index/index'
     })
   },

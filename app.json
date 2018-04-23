@@ -9,5 +9,23 @@
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "WeChat",
     "navigationBarTextStyle":"black"
-  }
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "Home",
+      "iconPath": "/commons/assets/icons/home-unactive.png",
+      "selectedIconPath": "/commons/assets/icons/home.png"
+    },{
+      "pagePath": "pages/post/post",
+      "text": "post",
+      "iconPath": "/commons/assets/icons/post-unactive.png",
+      "selectedIconPath": "/commons/assets/icons/post.png"
+    }]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
 }
