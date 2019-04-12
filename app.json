@@ -12,7 +12,7 @@
   },
   "tabBar": {
     "backgroundColor": "#FFFFFE",
-    "borderStyle": "#D3D3D3",
+    "borderStyle": "black",
     "selectedColor": "#D03232",
     "color": "#888888",
     "list": [{
@@ -22,7 +22,7 @@
       "selectedIconPath": "/commons/assets/icons/home.png"
     },{
       "pagePath": "pages/post/post",
-      "text": "post",
+      "text": "POST",
       "iconPath": "/commons/assets/icons/post-unactive.png",
       "selectedIconPath": "/commons/assets/icons/post.png"
     }]
